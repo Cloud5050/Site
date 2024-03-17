@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo CSS externo -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png"> <!-- Ícone da aba do navegador -->
+    <title>Meu Portfolio - David Donizetti</title>
+</head>
+
+<body>
+<header>
+    <img src="img/logo.png" alt="Logo"> <!-- Logo -->
+    <nav>
+        <ul>
+            <!-- Links de navegação -->
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="sobre"> <!-- Sobre mim -->
+    <h2>Sobre Mim</h2>
+    <p>Oi, eu sou o David e sou apaixonado por informática. Sempre gostei de mexer em computadores, <br> sei montar e desmontar, fazer manutenções e limpezas.
+         Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNINTER. <br> Nas horas vagas, gosto de relaxar assistindo filmes, séries e ouvindo música.
+    </p>
+</section>
+
+<section id="formacao"> <!-- Formação -->
+    <h2>Formação</h2>
+    <p>Ensino Médio completo</p>
+    <p>Cursando Análise e Desenvolvimento de Sistemas na UNINTER</p>
+</section>
+
+<section id="portfolio"> <!-- Portfolio -->
+    <h2>Portfólio</h2>
+    <div class="card-container">
+        <!-- Cards do portfólio -->
+        <div class="card">
+            <img src="img/ifood.png" alt="Projeto 1"> <!-- Imagem -->
+            <div class="card-content">
+                <h3>IFood Figman</h3> <!-- Título do projeto -->
+                <p> <!-- Descrição do projeto -->
+                    Como parte de um exercício de design e prática com o Figma, decidi replicar a interface do usuário do iFood,
+                    fazendo algumas modificações para explorar novas ideias e abordagens de design..
+                </p>
+                <a href="https://www.figma.com/file/2NiUHIwH2X5MPTyiCGLPmZ/Copia-ifood?type=design&mode=design" target="_blank">Veja mais</a> <!-- Link para mais detalhes -->
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/app.png" alt="Projeto 2"> <!-- Imagem -->
+            <div class="card-content">
+                <h3>APP Tarefas Figman</h3> <!-- Título do projeto -->
+                <p> <!-- Descrição do projeto -->
+                    Durante minha prática e exploração no design de interface do usuário com o Figma, desenvolvi um design conceitual para um aplicativo de tarefas.</p> <br>
+                <a href="https://www.figma.com/file/yhUak4dat4lbDi1SrGqHuH/App-tarefas?type=design&node-id=0-1&mode=design" target="_blank">Veja mais</a> <!-- Link para mais detalhes -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <!-- Formulário de contato -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome"><br> <!-- Campo de nome -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com"><br> <!-- Campo de email -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva aqui sua mensagem..."></textarea><br> <!-- Campo de mensagem -->
+        <input type="submit" value="Enviar"> <!-- Botão de envio -->
+    </form>
+</section>
+
+<footer>
+    <p>&copy; David Donizetti</p> <!-- Rodapé -->
+</footer>
+</body>
+</html>
